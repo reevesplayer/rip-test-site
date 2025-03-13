@@ -6,6 +6,7 @@ import Link from "next/link";
 import ButtonWithIcons from "@/components/Buttons";
 import { Card, CardBody, CardHeader, CardFooter, Image, Button, Spacer } from "@heroui/react";
 import { Mondays, Fridays} from "@/components/ServerStatus";
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
@@ -45,7 +46,7 @@ export default function Home() {
 
                 {/* Main Content */}
                 <div className="max-w-6xl mx-auto w-full px-6">
-					<h1 className="text-3xl font-bold">CURRENT SERVERS</h1>
+					<h1 className="font-bold text-9xl">CURRENT SERVERS</h1>
 					<p className="text-default-500 mb-6">Placeholder</p>
 
 					{/* Grid Layout for Cards */}
